@@ -19,7 +19,10 @@ An encoder is a combinational circuit that converts binary information in the fo
 
 As an example, let’s consider Octal to Binary encoder. As shown in the following figure, an octal-to-binary encoder takes 8 input lines and generates 3 output lines.
 
-# Figure -01 3 to 8 Encoder
+![Screenshot (136)](https://user-images.githubusercontent.com/119476322/215269677-af8e4c64-df73-431b-a633-6acc4e71e921.png)
+
+# Figure -01 3 to 8 Encoder 
+
 Implementation –
 
 X = D4 + D5 + D6 + D7
@@ -30,7 +33,8 @@ Z = D1 + D3 + D5 + D7
 
 Hence, the encoder can be realised with OR gates as follows:
 
-image
+![Screenshot (137)](https://user-images.githubusercontent.com/119476322/215269741-320e64f5-effa-4977-be8f-322dff3fe312.png)
+
 # Figure -02 3 to 8 Encoder implenentation
 
 # Decoders
@@ -59,10 +63,12 @@ D6 = X Y Z’
 
 D7 = X Y Z
 
-image
+![Screenshot (138)](https://user-images.githubusercontent.com/119476322/215269778-832b58af-2157-403b-8331-b9a018fb1998.png)
+
 # Figure -03 8 to 3 Decoder
 
-image
+![Screenshot (139)](https://user-images.githubusercontent.com/119476322/215269817-b79c5129-47e3-415b-a9a2-8a03e44c7950.png)
+
 # Figure -04 8 to 3 Decoder implementation
 
 # Procedure
@@ -79,8 +85,8 @@ image
 # PROGRAM
 ```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: NAVIN KUMAR J
-RegisterNumber:  22009212
+Developed by: Sivaramakrishnan B 
+RegisterNumber:  22006798
  
 Encoder
 
@@ -112,20 +118,31 @@ endmodule
 
 # Encoder
 
+![Screenshot (140)](https://user-images.githubusercontent.com/119476322/215269891-31993b60-b364-4b9a-a3b2-a975c8cbdc69.png)
+
 # Decoder
+
+![Screenshot (141)](https://user-images.githubusercontent.com/119476322/215269898-28684a1c-dd19-4374-a647-a86415c01316.png)
 
 # TIMING DIGRAMS
 
 # Encoder
 
+![Screenshot (142)](https://user-images.githubusercontent.com/119476322/215269914-962bc7d3-1f77-47ae-b1ac-71911ea1f378.png)
+
 # Decoder
 
+![Screenshot (143)](https://user-images.githubusercontent.com/119476322/215269930-9053fbaf-1ffd-4edb-9aa5-92482e2b1a4c.png)
 
 # TRUTH TABLE
 
 # Encoder 
 
+![Screenshot (144)](https://user-images.githubusercontent.com/119476322/215269954-6b54fc7a-3324-41cd-b11b-afa9f580c2ca.png)
+
 # Decoder
+
+![Screenshot (145)](https://user-images.githubusercontent.com/119476322/215269979-260180a7-1614-4bcc-a261-921234192f34.png)
 
 # RESULTS
 Thus the Encoder and Decoder circuits are designed and truth tables are verified using quartus software
